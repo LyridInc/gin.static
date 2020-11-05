@@ -1,0 +1,11 @@
+name: gin
+description: App Description
+modules:
+- name: static
+  language: go1.x
+  web: gin
+  description: Module description
+  functions:
+  - name: fnx
+    entry: entry.go
+    description: the entry point for the function
