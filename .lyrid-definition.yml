@@ -1,5 +1,6 @@
 name: gin
 description: App Description
+ignoreFiles: .git go.sum
 modules:
 - name: static
   language: go1.x
